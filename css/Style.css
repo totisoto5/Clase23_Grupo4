@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+header {
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav a {
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+header nav a:hover {
+  cursor: pointer;
+  background-color: #03faee;
+}
+
+main {
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+}
+main div.Col1 {
+  width: 50%;
+}
+main div.Col1 h2 {
+  font-family: Impact, "Arial Narrow Bold", sans-serif;
+  font-size: 55px;
+  line-height: 70px;
+  padding: 2rem 10rem 0 0;
+  letter-spacing: 10px;
+}
+main div.Col1 p {
+  color: rgb(161, 160, 160);
+  line-height: 2rem;
+}
+main div.Col1 button {
+  margin: 1rem 1rem 0 0;
+  padding: 1rem 2rem;
+  background-color: #03faee;
+  border-radius: 7px;
+  border: black 0.1px dashed;
+}
+main div.Col1 button:hover {
+  cursor: pointer;
+}
+main div.Col2 {
+  width: 50%;
+}
+main div.Col2 img {
+  width: 100%;
+}
+
+section {
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+}
+section article {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-color: #f8f8f8;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 1rem 1rem 0 0;
+  height: 25vh;
+}
+section h3, section p {
+  margin: 0;
+}
+section div.num {
+  border-radius: 50%;
+  border: solid black 1px;
+  padding: 1rem 1.3rem;
+  box-shadow: #03faee -4px 0;
+  margin-bottom: 1rem;
+}
+
+footer {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer img {
+  height: 1rem;
+  padding: 0.5rem 0.8rem;
+  border-radius: 50%;
+  box-shadow: #03faee -3px 0;
+  margin-left: 1rem;
+}/*# sourceMappingURL=Style.css.map */
